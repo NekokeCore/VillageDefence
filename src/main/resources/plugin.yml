@@ -1,0 +1,18 @@
+name: VillageDefence
+main: net.emtips.vd.main
+version: 1.0.0
+author: NekokeCores
+description: 一个来自原版MC村庄袭击灵感的游戏.
+website: www.emtips.net
+
+commands:
+  vd:
+    permission: net.emtips.vd.help
+    permission-message: 你没有权限去那样做！
+    usage: /<command> help
+    description: 一个列出玩家使用的指令的指令（雾
+  joinpvp:
+    permission: net.emtips.vd.joinpvp
+    permission-message: 你没有权限去那样做！
+    usage: /vd <command> [房间名]
+    description: 一个玩家游玩使用的指令
